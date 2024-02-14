@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
   var templateUXCarousel = function() {
     $('.wide-slider').owlCarousel({
       loop:true,
-      autoplay: false,
+      autoplay: true,
       margin:0,
       animateOut: 'fadeOut',
       animateIn: 'fadeIn',
